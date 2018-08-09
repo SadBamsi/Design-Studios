@@ -35,6 +35,7 @@ html {
 body {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .container {
@@ -123,6 +124,7 @@ header {
 }
 
 .main-text-cont {
+    margin: 0;
     font-size: 3.4rem;
 }
 
@@ -143,9 +145,11 @@ header {
 }
 .features-block {
     width: 28rem;
+    height: 35rem;
     padding: 1.5rem;
     background-color: #00aeef;
     text-align: center;
+    box-shadow: 2px 4px 5px 0px rgba(170,170,170,.75);
 }
 
 .features-block-title {
@@ -157,4 +161,191 @@ header {
     color: #fff;
 }
 
+.features-block-text {
+    font-size: 1.4rem;
+    color: #fff;
+    font-family: 'Arial';
+    font-weight: 400;
+    display: block;
+    margin: 3rem 0;
+}
 
+.features-block-btn {
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #0e5f7b;
+    background-color: #0077a4;
+    width: 23rem;
+    height: 4rem;
+}
+
+.features-block-btn span {
+    color: #fff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.features-block-btn span:after {
+    content: ">>";
+    font-size: 1.8rem;
+    margin-left: .5rem;
+}
+
+    /*************Main Clients***************/
+
+.main-about {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    border-bottom: .3rem dotted #bbb;
+    padding: 4rem 0;
+}
+
+.main-clients {
+    text-align: left;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex:1;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    border-right: .3rem dotted #bbb;
+    padding-right: 3rem;
+    
+}
+
+.main-clietnts-title {
+    color: #555555;
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+}
+
+/***client cart**/
+
+.main-clients-feedback {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin-bottom: 4rem;
+    font-size: 1.4rem;
+    font-family: 'Arial', serif;
+    color: #555;
+    height: 8.4rem;
+}
+
+.main-clients-feedback:last-child {
+    margin: 0;
+}
+
+.feedback-logo {
+    background-color: #cccccc;
+    margin-right: 2.5rem;
+    height: 8.4rem;
+    width: 8.4rem;
+}
+
+.feedback-text {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    flex: 3;
+}
+
+.comment {
+    line-height: 1.5;
+    padding-bottom: .5rem;
+}
+
+.name {
+    font-weight: 700;
+    padding-bottom: .5rem;
+}
+.job {
+     color: #00aeef;;
+}
+
+/***********Main Project*******************/
+
+
+.main-project {
+    padding-left: 4rem;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex:1;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    font-family: "Arial", serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #555;
+}
+
+.main-project-title {
+    font-size: 2.4rem;
+    font-family: "Myriad Pro";
+    margin-bottom: 3rem;
+}
+
+.main-project-undertitle {
+    font-size: 2rem;
+    color: #888888;
+    margin-bottom: 1rem;
+}
+
+.main-project-cart {
+    width: 43rem;
+    height: 20.6rem;
+    box-shadow: 2px 4px 5px 0px rgba(204, 204, 204, 0.75);
+    margin-bottom: 2rem;
+}
+
+.main-project-text {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.main-project-link {
+    color: #00aeef;
+    text-decoration: none;
+}
+
+.main-project-link:after {
+    content: ">>";
+    font-size: 1.4rem;
+    color: #00aeef;
+    margin-left: .5rem;
+}
+
+/***********Copyright***********/
+
+footer {
+    padding-top:2rem;
+}
+.copyright {
+
+    color: #888888;
+    font-size: 1.8rem;
+    font-family: "Arial";
+}
